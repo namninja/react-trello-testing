@@ -2,13 +2,13 @@ language: node_js
 node_js: node
 cache:
   directories:
-    - node_modules
+  - node_modules
 env:
-  - CI=true
+- CI=true
 deploy:
   provider: heroku
   api_key:
-    secure: MUK4t78I3SPSMjVs0eopjLXooKxvI3nJo3+TCF6sGaoGvAXv0dAj9BKoT1zFOEl1K/YygE+nbH+36kRjDpnownqC96KKtOHmu1liGrwuclbCFeEEnldiOeukp2BIgd81YSp9yd/FjK/E5mcNHGeonOCfUlQtRpsQ20V06puPFdvzt2Ogw0mm86q53HCKrnhXf3/k+hNotCjowiPz6NcUUcrk/axvMkdJ/95GSg459/iyk31ptsBmPZs4PixbDiGJZlsbKr6is8TN2K+S83SKBi5pyZxHbK37smbZ+LWWqY433mfV0Nmi7fBlmd31aanmfPjcBu9x20sO2cZ8O1i2qe1G8T6yhwpVkR8LZVWBXVL1UW7ZugAZEOMn0PDBR3gsdC7gOJfagArLSpSEYo4CVEBJCBweJeGaQGonvT8XTrSRMy1/uGlZK9L8i4i3OwWuKHCQ7zqamnJ+IWYEvY4yvoRDjL2FXThhpVQH8Od3GSa+mX6h8iHh/WgWC+fvTC/S1ElqxJv02eBE0F9hQ/CKlhIheYooZeXXecDym66rBJ/DGkfJKMHZp5BFqI1RamKDMOz8+81CQgEvbF4/aVJDGIkXGdE2U7wUYb8wREB1tziwhX3EpH51iEf15h/b1TEgv7c3VEGJdBRqd3vf2ky2+UiU/orDdKL9NyS5fSZXjSM=
+    secure: OfIWptX5bmXPqaWa/gH3znL6ns+UM2+BcA7EaQCRsiP0VMBDBPGErWwaX+wfiMA0xM7XO8jaBDFqhevSYhmwHGyN5ngzeb83n/Tl7H2g2UpEZ06/y3aztLq8GKUQwk/UiS6OrnZb9kq7yonBOO78GRFuxWPj9dJWvYAtdBfZ+7NUmttiO6Qf04l8ne/QFsJdjQHPJyJ0LDYqyO0qalzM/lbJ3BctXV+Vj1ycnsGYRyv+vVLN2g7UnsB864StHJ3CakkLdbocG/sdaJg6bBZn9Ub0mUSUWhKpxuD8tdOdSuwQuNGiekHH3aWZGJrXVjVryNS5a8bg1J9dJ0SLPUB7HbrS7CXJPJNHxusalNYPCfzHphBmLHreDFShj4vCadqgS9TKOZTqsIgjI/t+9Qc5jyfe1XDq8g07/u0qKAWGerUaemNAL/Zrz6e6HtlXlADytxtxqkqc+63wDLFq20ucpUjx+V5cLoZvVGXZvn7cszPhDNHzmwakTjlgrApdy/cFH1sNG1rFm3fxIo8VdI4wMJG0UJNe6FJFrdgtEdY5X/F0Lol/ptAT1zxej+IcjLYQZf7CjxaLmaNF9wOY9myYWj/anNoHpHZsx0+ccU3sA/z/4PYrJfi1LggKE9MOqVmiogy4nqZ+Gz2OJ5SAtT7uI80xWvw3M9lHJXTQFKAyEM8=
   app: lit-forest-52364
   on:
     repo: namninja/react-trello-testing
